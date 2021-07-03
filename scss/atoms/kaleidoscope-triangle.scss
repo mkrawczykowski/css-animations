@@ -58,5 +58,63 @@
         }
       }
     }
+
+    .animation-delay-0 {
+      animation-delay: 0;
+    }
+
+    .animation-delay-0 {
+      animation-delay: 1s;
+    }
+
+    .animation-delay-2 {
+      animation-delay: 2s;
+    }
+
+    .white {
+      background-color: #ffffff;
+    }
+
+    .blue {
+      background-color: #3309f0;
+    }
+
+    .rectangle {
+      width: 100%;
+      height: 3rem;
+      top: -10%;
+    }
+
+    .animation-1 {
+      animation-name: rectangle-animation2;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      position: relative;
+
+      @keyframes rectangle-animation {
+        0% {
+          top: -10;
+        }
+        100% {
+          top: 110%;
+        }
+      }
+    }
+
+    .animation-2 {
+      animation-name: rectangle-animation2;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      position: relative;
+
+      @keyframes rectangle-animation {
+        0% {
+          top: -10%;
+        }
+        100% {
+          top: 110%;
+        }
+      }
+    }
   }
 }
